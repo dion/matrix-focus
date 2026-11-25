@@ -46,3 +46,15 @@ footer a { margin-right: 16px; }
 .toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
 .toc a { font-size: 14px; text-decoration: none; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
 h2[id] { scroll-margin-top: 16px; }
+.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 24px 0; }
+figure { margin: 0; }
+figure img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1px solid var(--line); background: var(--surface); }
+figcaption { font-size: 13px; color: var(--muted); text-align: center; margin-top: 6px; }
+.phone { float: right; width: 200px; margin: 4px 0 16px 24px; }
+.wide { margin: 24px 0; }
+.wide img { border: none; background: none; border-radius: 0; }
+h2 { clear: both; }
+@media (max-width: 560px) {
+  .shots { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .phone { float: none; width: 220px; margin: 16px auto; }
+}
