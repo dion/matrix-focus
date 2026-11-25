@@ -43,3 +43,6 @@ a { color: var(--accent); }
 .eliminate { border-top: 3px solid #64748b !important; } .eliminate b { color: #64748b; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; }
 footer a { margin-right: 16px; }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
+.toc a { font-size: 14px; text-decoration: none; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+h2[id] { scroll-margin-top: 16px; }
